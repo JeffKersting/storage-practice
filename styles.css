@@ -1,0 +1,47 @@
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;;
+  width:800px;
+  padding-bottom: 50px;
+  background-color: black;
+}
+.grid-item{
+  height: 200px;
+  width: 200px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px;
+  margin-bottom: 15px;
+}
+.title{
+  background-color: red;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+}
+.delete-button{
+  width: 50%;
+  align-self: flex-end;
+}
+.like-idea {
+  align-self: flex-end;
+  width:50%
+}
+.liked {
+  background-color: lightgreen;
+}
+.not-liked{
+  background-color: lightgrey;
+}
+.comment-input{
+  align-self: flex-end;
+  width:auto;
+  height: 10px;
+}
+
+.hidden{
+  display: none;
+}
